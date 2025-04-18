@@ -127,27 +127,27 @@ mcpServers:
     # type: sse # type can optionally be omitted
     url: https://n8n.srv780114.hstgr.cloud/mcp/cfe3c672-9c06-436d-a697-73d343e94973/sse
     timeout: 60000  # 1 minute timeout for this server, this is the default timeout for MCP servers.
-#   puppeteer:
-#     type: stdio
-#     command: npx
-#     args:
-#       - -y
-#       - "@modelcontextprotocol/server-puppeteer"
-#     timeout: 300000  # 5 minutes timeout for this server
-#   filesystem:
-#     # type: stdio
-#     command: npx
-#     args:
-#       - -y
-#       - "@modelcontextprotocol/server-filesystem"
-#       - /home/user/LibreChat/
-#     iconPath: /home/user/LibreChat/client/public/assets/logo.svg
-#   mcp-obsidian:
-#     command: npx
-#     args:
-#       - -y
-#       - "mcp-obsidian"
-#       - /path/to/obsidian/vault
+   puppeteer:
+     type: stdio
+     command: npx
+     args:
+       - -y
+       - "@modelcontextprotocol/server-puppeteer"
+     timeout: 300000  # 5 minutes timeout for this server
+   filesystem:
+     # type: stdio
+     command: npx
+     args:
+       - -y
+       - "@modelcontextprotocol/server-filesystem"
+       - /home/user/LibreChat/
+     iconPath: /home/user/LibreChat/client/public/assets/logo.svg
+   mcp-obsidian:
+     command: npx
+     args:
+       - -y
+       - "mcp-obsidian"
+       - /path/to/obsidian/vault
 
 # Definition of custom endpoints
 endpoints:
