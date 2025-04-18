@@ -122,11 +122,11 @@ actions:
     - "google.com"
 
 # Example MCP Servers Object Structure
-# mcpServers:
-#   everything:
-#     # type: sse # type can optionally be omitted
-#     url: http://localhost:3001/sse
-#     timeout: 60000  # 1 minute timeout for this server, this is the default timeout for MCP servers.
+mcpServers:
+  everything:
+    type: sse # type can optionally be omitted
+      url: https://n8n.srv780114.hstgr.cloud/mcp/cfe3c672-9c06-436d-a697-73d343e94973/sse
+      timeout: 60000  # 1 minute timeout for this server, this is the default timeout for MCP servers.
 #   puppeteer:
 #     type: stdio
 #     command: npx
