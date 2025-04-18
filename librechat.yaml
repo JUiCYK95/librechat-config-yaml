@@ -12,7 +12,7 @@ cache: true
 
 # Custom interface configuration
 interface:
-  customWelcome: "Willkommen im Botzimmer! Viel Spaß mit unserer KI."
+  customWelcome: "Willkommen, {{user.name}}! Viel Spaß mit unserer KI."
   # Privacy policy settings
   privacyPolicy:
     externalUrl: 'https://botzimmer.de'
