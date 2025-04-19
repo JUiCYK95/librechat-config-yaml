@@ -70,6 +70,7 @@ interface:
   bookmarks: true
   multiConvo: false
   agents: false
+  runCode: false
 
 # Example Registration Object Structure (optional)
 registration:
